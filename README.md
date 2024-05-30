@@ -1,3 +1,3 @@
 # Getting Started with Create React App
 
-# it's a crud react app using firebase as database instead of json server and axios 
+- it's a crud react app using firebase as database instead of json server and axios 
