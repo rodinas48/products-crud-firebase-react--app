@@ -1,0 +1,36 @@
+.back{
+  margin: 10px;
+  font-size: 20px !important;
+  color: white;
+  border-radius: 50% !important;
+}
+.product img{
+  width: 200px;
+}
+.product{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 20px;
+  box-shadow: 1px 5px 10px 1px gainsboro;
+}
+.product p{
+  color: gray;
+}
+.text{
+  margin: 20px;
+}
+.product-title{
+  padding: 10px;
+
+}
+.product-title::after{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: green;
+  margin:5px auto;
+}

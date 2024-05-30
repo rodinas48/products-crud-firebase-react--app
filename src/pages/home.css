@@ -1,0 +1,48 @@
+.mainText h2::after{
+  content: "";
+  animation: typing 2.5s linear 2s infinite alternate;
+  -webkit-animation: typing 2.5s linear 2s infinite alternate;
+}
+@keyframes typing {
+  0% {
+    content: ' |';
+  }
+
+  25% {
+    content: 'to |';
+  }
+
+  50% {
+    content: 'to our |';
+  }
+
+  75% {
+    content: 'to our CRUD |';
+  }
+
+  100% {
+    content: 'to our CRUD App |';
+  }
+}
+.mainText{
+  /* width: 500px; */
+  position: absolute;
+  left: 50%;
+  top:40%;
+  transform: translate(-50%,-50%);
+  /* background-color: aliceblue; */
+}
+.mainText h2{
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 1px 4px 4px rgba(65, 105, 225, 0.556);
+      /* font-family: 'Montserrat', sans-serif; */
+        /* font-family: 'Open Sans', sans-serif; */
+        /* font-family: 'Oswald', sans-serif; */
+        font-family: 'Play', sans-serif;
+        /* font-family: 'Playball', cursive; */
+        /* font-family: 'Poppins', sans-serif; */
+        /* font-family: 'Roboto', sans-serif; */
+        /* font-family: 'Roboto Condensed', sans-serif; */
+        /* font-family: 'Space Grotesk', sans-serif; */
+}

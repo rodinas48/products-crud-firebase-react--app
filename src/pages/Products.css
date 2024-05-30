@@ -1,0 +1,24 @@
+.product-header::after {
+   content: "";
+   display: block;
+   margin: 5px auto;
+   width: 100px;
+   height: 5px;
+   border-radius: 10px;
+   background-color: gainsboro;
+}
+
+.productContainer {
+   max-height: 100vh !important;
+   position: relative;
+}
+
+td {
+   max-width: 200px;
+}
+.alert{
+   color: gray !important;
+}
+.alertProductTitle{
+   color: black;
+}
